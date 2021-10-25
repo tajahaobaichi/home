@@ -5,7 +5,7 @@ body, html {
 	color: #d8d8d8;
 	text-align: center;
 	background-color: #262525;
-	/* font-size: 1vw; */
+	
 }
 
 /*** HOME BACKGROUND PHOTO***/
@@ -80,7 +80,7 @@ body, html {
 
 	/* Name: KIERON */
 	.name_header {
-		font-size: 300%;
+		font-size: 5vw;
 		padding: 0;
 	}
 
