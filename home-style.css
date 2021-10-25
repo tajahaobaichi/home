@@ -26,7 +26,7 @@ body, html {
 		z-index: 100;
 		
 		margin: 0;
-		padding: 2vw;
+		padding: 1.8vw;
 		
 		font-weight: 200;
 		font-size: 1.5vw;
@@ -37,7 +37,7 @@ body, html {
 	
 /*** NAVIGATION BAR ***/
 	.navbar {
-		padding: 2vw;
+		padding: 1.8vw;
 		
 		transition-property: background-color font-weight text-decoration;
 		transition-duration: 1s;
@@ -47,7 +47,7 @@ body, html {
 	.navbar a {
 		text-decoration: none;
 		color: #d8d8d8;
-		padding: 2vw;
+		padding: 1.8vw;
 	}
 	
 	/* Hover effect */
