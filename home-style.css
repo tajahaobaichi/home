@@ -5,7 +5,7 @@ body, html {
 	color: #d8d8d8;
 	text-align: center;
 	background-color: #262525;
-	font-size: 1vw;
+	/* font-size: 1vw; */
 }
 
 /*** HOME BACKGROUND PHOTO***/
@@ -21,6 +21,10 @@ body, html {
 
 /*** STICKY NAVIGATION BAR ***/
 	.navbar-sticky {
+		max-width: 100%;
+		height: auto;
+		width: auto\9; /* ie8 */
+		
 		position: sticky;
 		top: 0;
 		
@@ -38,6 +42,10 @@ body, html {
 	
 /*** NAVIGATION BAR ***/
 	.navbar {
+		max-width: 100%;
+		height: auto;
+		width: auto\9; /* ie8 */
+		
 		padding: 20px;
 		transition-property: background-color font-weight text-decoration;
 		transition-duration: 1s;
@@ -47,7 +55,7 @@ body, html {
 	.navbar a {
 		text-decoration: none;
 		color: #d8d8d8;
-		padding: 20px;
+		padding: auto\9;
 	}
 	
 	/* Hover effect */
@@ -59,20 +67,24 @@ body, html {
 	
 
 /*** HOME CONTENTS ***/
-	/* HEADER PHOTO */
-	#header-bg {
-		max-width: 100%;
+	/* HEADER PHOTO & PROFILE PHOTO */
+	#header-bg, #profpic {
 		height: auto;
 		width: auto\9; /* ie8 */
 	}
 
 
+	/* HEADER PHOTO */
+	#header-bg {
+		max-width: 100%;
+	}
+
 	/* HOME Profile Photo */
 	#profpic {
 		padding-top: 50px;
 		padding-bottom: 25px;
-		height: 250px;
-		width: 250px;
+		
+		max-width: 20%;
 	}
 
 	/* Name: KIERON */
